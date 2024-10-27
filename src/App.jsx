@@ -1,4 +1,5 @@
 import { RequestAirDrop } from './RequestAirDrop';
+import { ShowBalance } from './ShowBalance';
 import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
 
 import {
@@ -24,6 +25,8 @@ function App() {
               </div>
               <br/>
               <RequestAirDrop/>
+              <br/>
+              <ShowBalance/>
             </WalletModalProvider>
         </WalletProvider>
     </ConnectionProvider>

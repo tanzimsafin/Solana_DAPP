@@ -3,7 +3,6 @@ import { LAMPORTS_PER_SOL } from "@solana/web3.js";
 
 export function RequestAirDrop(){
     const {connection}=useConnection();
-    console.log(connection);
     const wallet=useWallet();
     async function Airdrop(){
        const amount=document.getElementById("amount").value;
