@@ -13,6 +13,7 @@ import {
 import '@solana/wallet-adapter-react-ui/styles.css';
 
 import './App.css'
+import { SendTransaction } from './SendTransaction';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
               <RequestAirDrop/>
               <br/>
               <ShowBalance/>
+              <br/>
+              <br/>
+              <SendTransaction/>
             </WalletModalProvider>
         </WalletProvider>
     </ConnectionProvider>
