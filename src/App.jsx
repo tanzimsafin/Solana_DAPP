@@ -1,7 +1,7 @@
 import { RequestAirDrop } from './RequestAirDrop';
 import { ShowBalance } from './ShowBalance';
 import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
-
+import { SignMsg } from './signMessage';
 import {
     WalletModalProvider,
     WalletDisconnectButton,
@@ -31,6 +31,9 @@ function App() {
               <br/>
               <br/>
               <SendTransaction/>
+              <br/>
+              <br/>
+              <SignMsg/>
             </WalletModalProvider>
         </WalletProvider>
     </ConnectionProvider>

@@ -13,7 +13,7 @@ export function RequestAirDrop(){
     return(
         <div style={{display:"flex",justifyContent:"space-between"}}>
             <input id="amount" type="text" placeholder="amount..."/>
-            <button onClick={Airdrop}>Send</button>
+            <button onClick={Airdrop}>Request Air Drop</button>
         </div>
     )
 }
